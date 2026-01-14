@@ -1,7 +1,7 @@
 package init
 
 import (
-	"github/go-xuan/elasticx"
+	"github.com/go-xuan/elasticx"
 
 	"github.com/go-xuan/quanx/configx"
 	"github.com/go-xuan/utilx/errorx"
