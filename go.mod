@@ -1,4 +1,4 @@
-module github/go-xuan/elasticx
+module github.com/go-xuan/elasticx
 
 go 1.18
 
