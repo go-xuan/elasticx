@@ -3,10 +3,10 @@ module github.com/go-xuan/elasticx
 go 1.18
 
 require (
-	github.com/go-xuan/configx v1.26.2
-	github.com/go-xuan/nacosx v1.26.1
+	github.com/go-xuan/configx v1.26.5
+	github.com/go-xuan/nacosx v1.26.4
 	github.com/go-xuan/typex v1.26.0
-	github.com/go-xuan/utilx v1.26.0
+	github.com/go-xuan/utilx v1.26.2
 	github.com/olivere/elastic/v7 v7.0.32
 	github.com/sirupsen/logrus v1.9.4
 )
@@ -33,6 +33,7 @@ require (
 	golang.org/x/mod v0.17.0 // indirect
 	golang.org/x/sync v0.11.0 // indirect
 	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/tools v0.13.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
