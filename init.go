@@ -2,22 +2,20 @@ package elasticx
 
 import (
 	"github.com/go-xuan/configx"
+	"github.com/go-xuan/utilx/errorx"
 	log "github.com/sirupsen/logrus"
 )
 
-func init() {
-	Init() // 初始化 ES
-}
-
-func Init() {
+func Initialize() error {
 	logger := log.WithField("package", "elasticx")
 	if err := configx.LoadConfigurator(&Configs{}); err == nil && Initialized() {
-		logger.Info("initialized success")
-		return
+		logger.Info("initialize success")
+		return nil
 	}
 	if err := configx.LoadConfigurator(&Config{}); err == nil && Initialized() {
-		logger.Info("initialized success")
-		return
+		logger.Info("initialize success")
+		return nil
 	}
-	logger.Warn("initialized failed")
+	logger.Warn("initialize failed")
+	return errorx.New("initialize elasticx failed")
 }
