@@ -17,5 +17,5 @@ func Initialize() error {
 		return nil
 	}
 	logger.Warn("initialize failed")
-	return errorx.New("initialize elasticx failed")
+	return errorx.New("failed to initialize elasticx")
 }
