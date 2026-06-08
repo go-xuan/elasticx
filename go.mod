@@ -1,12 +1,12 @@
 module github.com/go-xuan/elasticx
 
-go 1.18
+go 1.25
 
 require (
-	github.com/go-xuan/configx v1.26.5
-	github.com/go-xuan/nacosx v1.26.4
-	github.com/go-xuan/typex v1.26.0
-	github.com/go-xuan/utilx v1.26.2
+	github.com/go-xuan/configx v1.26.9
+	github.com/go-xuan/nacosx v1.26.9
+	github.com/go-xuan/typex v1.26.3
+	github.com/go-xuan/utilx v1.26.5
 	github.com/olivere/elastic/v7 v7.0.32
 	github.com/sirupsen/logrus v1.9.4
 )
@@ -20,7 +20,7 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/magiconair/properties v1.8.6 // indirect
+	github.com/magiconair/properties v1.8.10 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
