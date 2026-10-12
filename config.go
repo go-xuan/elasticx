@@ -20,8 +20,8 @@ type Config struct {
 }
 
 // LogFields 日志字段
-func (c *Config) LogFields() map[string]interface{} {
-	fields := make(map[string]interface{})
+func (c *Config) LogFields() map[string]any {
+	fields := make(map[string]any)
 	fields["source"] = c.Source
 	fields["address"] = c.Url
 	return fields

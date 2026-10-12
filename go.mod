@@ -8,7 +8,7 @@ require (
 	github.com/go-xuan/typex v1.26.4
 	github.com/go-xuan/utilx v1.26.6
 	github.com/olivere/elastic/v7 v7.0.32
-	github.com/sirupsen/logrus v1.9.4
+	github.com/sirupsen/logrus v1.10.2
 )
 
 require (
